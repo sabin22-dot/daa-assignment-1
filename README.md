@@ -86,6 +86,8 @@ Insert → Chart → Line chart.
 Export charts as PNG and place them in docs/plots/.
 
 Measurements & Plots
+![Average runtime vs n (ms)](docs/plots/time_vs_n.png)
+![Average recursion depth vs n](docs/plots/depth_vs_n.png)
 We measured n ∈ {5k, 10k, 50k, 100k, 200k} across multiple seeds and averaged.
 Average runtime vs n (ms)
 Average recursion depth vs n
@@ -114,6 +116,8 @@ feat(quicksort): randomized pivot + smaller-first recursion + tests
 feat(select): deterministic select (MoM5) + tests
 feat(closest): divide & conquer implementation + tests
 docs(report): plots & README
+
+
 
 Reproducibility & Future work
 Seeds are logged with results to rerun the same experiments.
