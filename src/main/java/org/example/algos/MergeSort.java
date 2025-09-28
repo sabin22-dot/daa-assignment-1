@@ -15,6 +15,7 @@ public class MergeSort {
         m.decDepth();
         m.stopTimer();
     }
+// Stable merge sort with reusable buffer and small-N cutoff (InsertionSort)
 
     private static void sortRec(int[] a, int lo, int hi, int[] buf, Metrics m) {
         if (hi - lo + 1 <= CUTOFF) {
