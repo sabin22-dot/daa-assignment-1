@@ -58,6 +58,7 @@ src/
     MergeSortTest, QuickSortTest, SelectTest, ClosestPairTest
 docs/
   plots/      # time_vs_n.png, depth_vs_n.png
+```
 
 Recurrence analysis (short, per algorithm)
 MergeSort. Recurrence T(n) = 2T(n/2) + Θ(n) (merge is linear). By Master Theorem (Case 2), T(n) = Θ(n log n).
